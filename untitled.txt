@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Application Contract - Thubalesha Cash Loans</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="scripts.js" defer></script>
+</head>
+<body>
+  <header>
+    <img src="thubaf.jpg" alt="Logo">
+    <h1>Application Contract</h1>
+  </header>
+
+  <nav class="nav">
+    <a href="index.html">Calculator</a>
+    <a href="contract_form.html" class="active">Application Contract</a>
+    <a href="terms_form.html">Terms</a>
+    <a href="comment_form.html">Comments</a>
+    <a href="bank_form.html">Bank Info</a>
+    <a href="services.html">Services</a>
+    <a href="about.html">About</a>
+    <a href="faq.html">FAQ</a>
+    <a href="contact.html">Contact</a>
+    <a href="privacy.html">Privacy</a>
+  </nav>
+
+  <main class="box">
+    <h2>Loan Agreement</h2>
+    <form id="contractForm">
+      <label for="fullName">Full Name</label>
+      <input type="text" id="fullName" required>
+
+      <label for="idNumber">ID Number</label>
+      <input type="text" id="idNumber" required>
+
+      <label for="loanAmount">Loan Amount</label>
+      <input type="number" id="loanAmount" readonly>
+
+      <label for="duration">Duration (months)</label>
+      <input type="number" id="duration" readonly>
+
+      <label for="repayment">Repayment Amount</label>
+      <input type="text" id="repayment" readonly>
+
+      <p class="note">By signing this contract, you agree to the loan terms, including 35% monthly interest, a fixed R36 insurance fee, and a 10% initial fee included in repayment.</p>
+
+      <button type="submit">Confirm Agreement</button>
+    </form>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Thubalesha Cash Loans. All rights reserved.</p>
+  </footer>
+</body>
+</html>
